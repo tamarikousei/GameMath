@@ -1,9 +1,9 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.uptex) (TeX Live 2026) (preloaded format=uplatex 2026.5.2)  7 MAY 2026 04:37
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.uptex) (TeX Live 2026) (preloaded format=uplatex 2026.5.2)  7 MAY 2026 23:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**繰数3_三角比Left.tex
-(./繰数3_三角比Left.tex
+**繰数3_三角比Right.tex
+(./繰数3_三角比Right.tex
 pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -291,8 +291,8 @@ File: l3backend-dvips.def 2026-02-18 L3 backend support: dvips
 \g__pdfannot_backend_link_int=\count312
 \g__pdfannot_backend_link_sf_int=\count313
 )
-(out/繰数3_三角比Left.aux)
-\openout1 = `繰数3_三角比Left.aux'.
+(out/繰数3_三角比Right.aux)
+\openout1 = `繰数3_三角比Right.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
@@ -403,7 +403,7 @@ LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
  [1
 
 ]
-(out/繰数3_三角比Left.aux)
+(out/繰数3_三角比Right.aux)
  ***********
 pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2025-11-01>
@@ -412,11 +412,11 @@ L3 programming layer <2026-03-20>
  ) 
 Here is how much of TeX's memory you used:
  4798 strings out of 469467
- 102761 string characters out of 5467876
- 544552 words of memory out of 5000000
+ 102775 string characters out of 5467876
+ 564555 words of memory out of 5000000
  33734 multiletter control sequences out of 15000+600000
  659255 words of font info for 87 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 78i,10n,103p,919b,243s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,10n,103p,920b,243s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/繰数3_三角比Left.dvi (1 page, 8060 bytes).
+Output written on out/繰数3_三角比Right.dvi (1 page, 9400 bytes).

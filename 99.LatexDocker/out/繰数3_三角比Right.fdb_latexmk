@@ -1,10 +1,10 @@
 # Fdb version 4
-["dvipdf"] 1778128633.13372 "out/繰数3_三角比Left.dvi" "out/繰数3_三角比Left.pdf" "out/繰数3_三角比Left" 1778128633.36263 0
-  "out/繰数3_三角比Left.dvi" 1778128633.04541 8060 53090dbd256d665634650aaa0059c8da "latex"
+["dvipdf"] 1778197862.3504 "out/繰数3_三角比Right.dvi" "out/繰数3_三角比Right.pdf" "out/繰数3_三角比Right" 1778197862.61272 0
+  "out/繰数3_三角比Right.dvi" 1778197862.20729 9400 1489d4c6c25c0dfa619a5a0da8408a4e "latex"
   (generated)
-  "out/繰数3_三角比Left.pdf"
+  "out/繰数3_三角比Right.pdf"
   (rewritten before read)
-["latex"] 1778128632.29233 "繰数3_三角比Left.tex" "out/繰数3_三角比Left.dvi" "繰数3_三角比Left" 1778128633.35545 0
+["latex"] 1778197861.35675 "繰数3_三角比Right.tex" "out/繰数3_三角比Right.dvi" "繰数3_三角比Right" 1778197862.60541 0
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1136768653 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/jlreq/ujlreq-v.tfm" 1707868109 2640 0acdedaeb9526b53015e577788c90ac5 ""
@@ -57,10 +57,10 @@
   "/usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
   "/usr/local/texlive/2026/texmf-var/web2c/euptex/uplatex.fmt" 1777762322 2381150 5e4f247b670a7662317e28346f335ae2 ""
   "/usr/local/texlive/2026/texmf.cnf" 1777761629 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "out/繰数3_三角比Left.aux" 1778128633.04107 686 6ee7dbe5f1296472519ab01fc92b3f73 "latex"
-  "繰数3_三角比Left.tex" 1778128630.96795 5974 63e98c135181fc55ef672474a1323fdd ""
+  "out/繰数3_三角比Right.aux" 1778197862.20109 662 6cef015e6551169be8ef81b668e0b48e "latex"
+  "繰数3_三角比Right.tex" 1778197859.87706 5844 3e8abf9e184473ac2f65add294e26711 ""
   (generated)
-  "out/繰数3_三角比Left.aux"
-  "out/繰数3_三角比Left.dvi"
-  "out/繰数3_三角比Left.log"
+  "out/繰数3_三角比Right.aux"
+  "out/繰数3_三角比Right.dvi"
+  "out/繰数3_三角比Right.log"
   (rewritten before read)
