@@ -1,9 +1,9 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.uptex) (TeX Live 2026) (preloaded format=uplatex 2026.3.6)  8 MAY 2026 13:37
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.uptex) (TeX Live 2026) (preloaded format=uplatex 2026.3.6)  8 MAY 2026 13:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**template_exercise_a4_landscape_2col.tex
-(./template_exercise_a4_landscape_2col.tex
+**template_WorkSheet.tex
+(./template_WorkSheet.tex
 pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -741,8 +741,8 @@ File: l3backend-dvips.def 2025-10-09 L3 backend support: dvips
 \g__pdfannot_backend_link_int=\count342
 \g__pdfannot_backend_link_sf_int=\count343
 )
-No file template_exercise_a4_landscape_2col.aux.
-\openout1 = `template_exercise_a4_landscape_2col.aux'.
+(out/template_WorkSheet.aux)
+\openout1 = `template_WorkSheet.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -762,6 +762,7 @@ LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
@@ -862,7 +863,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 ]
-(./template_exercise_a4_landscape_2col.aux)
+(out/template_WorkSheet.aux)
  ***********
 pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2025-11-01>
@@ -870,13 +871,12 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26758 strings out of 469643
- 701809 string characters out of 5471223
- 1226196 words of memory out of 5000000
- 55140 multiletter control sequences out of 15000+600000
+ 26762 strings out of 469643
+ 701761 string characters out of 5471223
+ 1226179 words of memory out of 5000000
+ 55141 multiletter control sequences out of 15000+600000
  659230 words of font info for 91 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 85i,8n,104p,933b,2096s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,8n,104p,916b,2096s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on template_exercise_a4_landscape_2col.dvi (1 page, 19332 bytes)
-.
+Output written on out/template_WorkSheet.dvi (1 page, 19332 bytes).

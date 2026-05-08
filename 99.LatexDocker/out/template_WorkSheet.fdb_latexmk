@@ -1,10 +1,10 @@
 # Fdb version 4
-["dvipdf"] 1778247494.5597 "out/template_exercise_a4_landscape_2col.dvi" "out/template_exercise_a4_landscape_2col.pdf" "out/template_exercise_a4_landscape_2col" 1778247494.67456 0
-  "out/template_exercise_a4_landscape_2col.dvi" 1778247494.40054 19332 8da498a3cfb2eeb8fa3db20cd17e2556 "latex"
+["dvipdf"] 1778247795.35784 "out/template_WorkSheet.dvi" "out/template_WorkSheet.pdf" "out/template_WorkSheet" 1778247795.49576 0
+  "out/template_WorkSheet.dvi" 1778247795.15477 19332 fd08327d4a6e571217a086fd0733a747 "latex"
   (generated)
-  "out/template_exercise_a4_landscape_2col.pdf"
+  "out/template_WorkSheet.pdf"
   (rewritten before read)
-["latex"] 1778247493.46083 "template_exercise_a4_landscape_2col.tex" "out/template_exercise_a4_landscape_2col.dvi" "template_exercise_a4_landscape_2col" 1778247494.67137 0
+["latex"] 1778247794.16711 "template_WorkSheet.tex" "out/template_WorkSheet.dvi" "template_WorkSheet" 1778247795.49202 0
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1246382020 928 2dc8d444221b7a635bb58038579b861a ""
@@ -180,10 +180,10 @@
   "/usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
   "/usr/local/texlive/2026/texmf-var/web2c/euptex/uplatex.fmt" 1772817256 2372071 83768763dffcaa2ce198a5c9c52783e1 ""
   "/usr/local/texlive/2026/texmf.cnf" 1772816622 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "out/template_exercise_a4_landscape_2col.aux" 1778247494.39746 477 484b13c314a741eb56b433338ad2c90f "latex"
-  "template_exercise_a4_landscape_2col.tex" 1778247491.85366 2842 91a099fc4bddec35f985d0393330f806 ""
+  "out/template_WorkSheet.aux" 1778247795.15066 477 484b13c314a741eb56b433338ad2c90f "latex"
+  "template_WorkSheet.tex" 1778247792.59175 2842 91a099fc4bddec35f985d0393330f806 ""
   (generated)
-  "out/template_exercise_a4_landscape_2col.aux"
-  "out/template_exercise_a4_landscape_2col.dvi"
-  "out/template_exercise_a4_landscape_2col.log"
+  "out/template_WorkSheet.aux"
+  "out/template_WorkSheet.dvi"
+  "out/template_WorkSheet.log"
   (rewritten before read)
