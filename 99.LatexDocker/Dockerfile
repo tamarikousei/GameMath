@@ -1,5 +1,5 @@
 FROM paperist/texlive-ja:latest
 
-# 過去の資産で必要なパッケージをここに追加します
+# 数学教材作成用のパッケージを追加
 RUN tlmgr update --self && \
-    tlmgr install physics
+    tlmgr install physics pgf pgfplots tikz-cd
