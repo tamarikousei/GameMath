@@ -7,8 +7,14 @@
 \usepackage{amsmath,amssymb}
 \usepackage{tikz}
 \usepackage{pgfplots}
+\usepackage{etoolbox}
+\usepackage{needspace}
 \pgfplotsset{compat=1.18}
 \usetikzlibrary{arrows.meta,calc,angles,quotes}
+
+% If there is not enough space left, start heading blocks on the next page.
+\preto{\section}{\needspace{0.35\textheight}}
+\preto{\subsection}{\needspace{0.32\textheight}}
 
 \ModifyHeading{section}{
   lines=1,
@@ -26,9 +32,19 @@
 \author{数学科}
 \date{\today}
 
+\makeatletter
+\renewcommand{\maketitle}{%
+  \begin{center}
+    {\large\bfseries \@title\par}
+    \vspace{2pt}
+    {\small \@author\hspace{1em}\@date\par}
+  \end{center}
+  \vspace{6pt}
+}
+\makeatother
+
 \begin{document}
 \maketitle
-\tableofcontents
 
 \section{単元名：三角比の基本}
 \subsection{このページの目標}
