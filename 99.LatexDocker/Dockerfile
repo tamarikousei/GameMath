@@ -1,8 +1,9 @@
 FROM paperist/texlive-ja:latest
 
 # latexmk is a Perl script, so Perl runtime is required.
+# Also install poppler-utils for PDF text extraction
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends perl && \
+    apt-get install -y --no-install-recommends perl poppler-utils && \
     rm -rf /var/lib/apt/lists/*
 
 # 数学教材作成用のパッケージを追加
