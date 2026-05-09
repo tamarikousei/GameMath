@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.uptex) (TeX Live 2026) (preloaded format=uplatex 2026.3.6)  9 MAY 2026 12:49
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.uptex) (TeX Live 2026) (preloaded format=uplatex 2026.3.6)  9 MAY 2026 19:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1013,29 +1013,30 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 6.59999pt on input line 148.
  [2] [3]
-[4] [5] [6]
+[4] [5] [6] [7] [8] [9]
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <9.23994> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 458.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 634.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.23994pt on input line 458.
+(Font)              scaled to size 9.23994pt on input line 634.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <9.23994> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 458.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 634.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.23994pt on input line 458.
+(Font)              scaled to size 9.23994pt on input line 634.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <6.59999> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 458.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 634.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 6.59999pt on input line 458.
+(Font)              scaled to size 6.59999pt on input line 634.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <6.59999> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 458.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 634.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 6.59999pt on input line 458.
- [7] [8]
+(Font)              scaled to size 6.59999pt on input line 634.
+ [10] [11] [12] [13]
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.69997pt on input line 545.
+(Font)              scaled to size 7.69997pt on input line 846.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.5pt on input line 545.
- [9] (out/テキスト5_2次元ベクトル.aux)
+(Font)              scaled to size 5.5pt on input line 846.
+ [14] [15] [16]
+(out/テキスト5_2次元ベクトル.aux)
  ***********
 pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2025-11-01>
@@ -1043,13 +1044,13 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 26855 strings out of 469643
- 699511 string characters out of 5471223
- 1219091 words of memory out of 5000000
- 55206 multiletter control sequences out of 15000+600000
+ 27003 strings out of 469643
+ 702408 string characters out of 5471223
+ 1221091 words of memory out of 5000000
+ 55354 multiletter control sequences out of 15000+600000
  711150 words of font info for 140 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 85i,16n,104p,931b,895s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,16n,104p,931b,958s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/テキスト5_2次元ベクトル.dvi (9 pages, 100372 by
-tes).
+Output written on out/テキスト5_2次元ベクトル.dvi (16 pages, 168668 b
+ytes).
