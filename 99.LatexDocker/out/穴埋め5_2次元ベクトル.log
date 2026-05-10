@@ -1,9 +1,9 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.uptex) (TeX Live 2026) (preloaded format=uplatex 2026.3.6)  10 MAY 2026 10:47
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.02-251130-2.6 (utf8.uptex) (TeX Live 2026) (preloaded format=uplatex 2026.3.6)  10 MAY 2026 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**ans_繰数5_2次元ベクトル.tex
-(./ans_繰数5_2次元ベクトル.tex
+**穴埋め5_2次元ベクトル.tex
+(./穴埋め5_2次元ベクトル.tex
 pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -277,6 +277,17 @@ LaTeX Info: Redefining \Relbar on input line 970.
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 )
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
 (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/local/texlive/2026/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
@@ -576,8 +587,20 @@ File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 s/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-6.
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+\pgfarrowinset=\dimen308
+\pgfarrowlength=\dimen309
+\pgfarrowwidth=\dimen310
+\pgfarrowlinewidth=\dimen311
+)
+(/usr/local/texlive/2026/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2025-08-29 v3.1.11a (3.1.11a)
+)
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+5.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -590,27 +613,27 @@ File: l3backend-dvips.def 2025-10-09 L3 backend support: dvips
 \g__pdfannot_backend_link_int=\count334
 \g__pdfannot_backend_link_sf_int=\count335
 )
-(out/ans_繰数5_2次元ベクトル.aux)
-\openout1 = `ans_繰数5_2次元ベクトル.aux'.
+(out/穴埋め5_2次元ベクトル.aux)
+\openout1 = `穴埋め5_2次元ベクトル.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -647,71 +670,89 @@ LaTeX Font Info:    ... okay on input line 16.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 14.0pt on input line 20.
+(Font)              scaled to size 14.0pt on input line 29.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 14.0pt on input line 20.
+(Font)              scaled to size 14.0pt on input line 29.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 14.0pt on input line 20.
+(Font)              scaled to size 14.0pt on input line 29.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 14.0pt on input line 20.
+(Font)              scaled to size 14.0pt on input line 29.
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-20.
+29.
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `JT2/gt/bx/n' in size <14> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 20.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 14.0pt on input line 20.
+(Font)              scaled to size 14.0pt on input line 29.
 LaTeX Font Info:    Font shape `JY2/gt/bx/n' in size <14> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 20.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 14.0pt on input line 20.
+(Font)              scaled to size 14.0pt on input line 29.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
-0.
+9.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-20.
+29.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-20.
+29.
 
 (/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 20.
+(Font)              <10> on input line 29.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 20.
+(Font)              <7> on input line 29.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 20.
+(Font)              <5> on input line 29.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.0pt on input line 20.
+(Font)              scaled to size 7.0pt on input line 29.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.0pt on input line 20.
+(Font)              scaled to size 5.0pt on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+
+
+(/usr/local/texlive/2026/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 7.0pt on input line 33.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 5.0pt on input line 33.
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 28.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 28.
+(Font)              scaled to size 10.0pt on input line 35.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 28.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 10.0pt on input line 28.
+(Font)              scaled to size 10.0pt on input line 35.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 206.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14> on input line 206.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9.79996> on input line 206.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 9.79996pt on input line 206.
  [1
 
 ]
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.0pt on input line 116.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 5.0pt on input line 116.
- [2] [3]
-(out/ans_繰数5_2次元ベクトル.aux)
+(out/穴埋め5_2次元ベクトル.aux)
  ***********
 pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2025-11-01>
@@ -719,13 +760,13 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 15458 strings out of 469643
- 333509 string characters out of 5471223
- 750713 words of memory out of 5000000
- 44002 multiletter control sequences out of 15000+600000
- 663471 words of font info for 90 fonts, out of 8000000 for 9000
+ 16432 strings out of 469643
+ 351022 string characters out of 5471223
+ 803551 words of memory out of 5000000
+ 44949 multiletter control sequences out of 15000+600000
+ 670433 words of font info for 106 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 85i,20n,104p,929b,619s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 85i,26n,104p,928b,817s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/ans_繰数5_2次元ベクトル.dvi (3 pages, 33936 bytes
-).
+Output written on out/穴埋め5_2次元ベクトル.dvi (1 page, 34068 bytes).
+
