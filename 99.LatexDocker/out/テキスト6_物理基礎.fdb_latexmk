@@ -1,10 +1,10 @@
 # Fdb version 4
-["dvipdf"] 1778481403.75803 "out/テキスト5_2次元ベクトル.dvi" "out/テキスト5_2次元ベクトル.pdf" "out/テキスト5_2次元ベクトル" 1778481404.07605 0
-  "out/テキスト5_2次元ベクトル.dvi" 1778481403.67225 168708 c1546e47958dd2816418bef26ba10b4e "latex"
+["dvipdf"] 1778482054.64292 "out/テキスト6_物理基礎.dvi" "out/テキスト6_物理基礎.pdf" "out/テキスト6_物理基礎" 1778482054.85943 0
+  "out/テキスト6_物理基礎.dvi" 1778482054.54426 61124 74c1edea1242bb69ec59c2b3cb500a76 "latex"
   (generated)
-  "out/テキスト5_2次元ベクトル.pdf"
+  "out/テキスト6_物理基礎.pdf"
   (rewritten before read)
-["latex"] 1778481401.64624 "テキスト5_2次元ベクトル.tex" "out/テキスト5_2次元ベクトル.dvi" "テキスト5_2次元ベクトル" 1778481404.06899 0
+["latex"] 1778482052.93279 "テキスト6_物理基礎.tex" "out/テキスト6_物理基礎.dvi" "テキスト6_物理基礎" 1778482054.85583 0
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1246382020 928 2dc8d444221b7a635bb58038579b861a ""
@@ -161,7 +161,6 @@
   "/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/dvipdfmx.def" 1759176675 12466 254cda60ce262fd4e1f9dbb063f46499 ""
-  "/usr/local/texlive/2026/texmf-dist/tex/latex/graphics-def/dvips.def" 1759176675 6789 86de240c158ee63ff8a8e12ed82d4c47 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphics.sty" 1748806692 18363 69bb4f5538964bfea50d1e6d89cbe69f ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/graphicx.sty" 1748806692 8118 43b99e52946c33a23f5f43b52d5cc5ec ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/graphics/keyval.sty" 1748806692 2671 d9941f4bf4750e9b0603c9a2ec54693b ""
@@ -170,7 +169,7 @@
   "/usr/local/texlive/2026/texmf-dist/tex/latex/jlreq/jlreq-complements.sty" 1742155061 11024 5bc7041e1a92c058beef60b65e1bc402 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/jlreq/jlreq-helpers.sty" 1707868109 21198 4561cb0e83239e0adc8e4f204ae00bdf ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/jlreq/jlreq.cls" 1742155061 299244 b6ba9ada3c45791ccb98df8a2e331dbe ""
-  "/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-dvips.def" 1774899586 36507 d45dbb20811615ccfa990f1e3b583bfe ""
+  "/usr/local/texlive/2026/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def" 1774899586 31244 c2f7b43aab59abda0046c7331d6cefa2 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/lm/lmodern.sty" 1616454256 1608 b00724785a9e9c599e5181bb8729160b ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omllmm.fd" 1616454256 890 57f5adccd504fb5c98bdf99ed7e7f195 ""
   "/usr/local/texlive/2026/texmf-dist/tex/latex/lm/omslmsy.fd" 1616454256 807 3de192f3efa968913bd2f096a7b430d8 ""
@@ -197,10 +196,10 @@
   "/usr/local/texlive/2026/texmf-dist/web2c/texmf.cnf" 1770478701 43630 e9fa012910491fe5ae08a72c3c2997a7 ""
   "/usr/local/texlive/2026/texmf-var/web2c/euptex/uplatex.fmt" 1777762322 2381150 5e4f247b670a7662317e28346f335ae2 ""
   "/usr/local/texlive/2026/texmf.cnf" 1777761629 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "out/テキスト5_2次元ベクトル.aux" 1778481403.66916 4025 ae732c4be0234ab5f76b4057fcf31238 "latex"
-  "テキスト5_2次元ベクトル.tex" 1778475174.40403 40800 81bf9c5d10b668af10e5f9b1da068cf0 ""
+  "out/テキスト6_物理基礎.aux" 1778482054.53647 3965 86a2b661ed07af6a93b9b331c5ef985c "latex"
+  "テキスト6_物理基礎.tex" 1778482052.46429 15779 b5a034b8d2e202a5b52ccd83f86533c0 ""
   (generated)
-  "out/テキスト5_2次元ベクトル.aux"
-  "out/テキスト5_2次元ベクトル.dvi"
-  "out/テキスト5_2次元ベクトル.log"
+  "out/テキスト6_物理基礎.aux"
+  "out/テキスト6_物理基礎.dvi"
+  "out/テキスト6_物理基礎.log"
   (rewritten before read)
