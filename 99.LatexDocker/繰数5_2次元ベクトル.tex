@@ -8,93 +8,91 @@
 %ページ番号消す
 \pagestyle{empty}
 %ページ余白の調整
-\usepackage[margin=10truemm]{geometry}
+\usepackage[margin=8truemm]{geometry}
 %画像挿入用のパッケージ
 \usepackage[dvipdfmx]{graphicx}
 %数学用のパッケージ
 \usepackage{amsmath}
-\usepackage{physics}
 %見出しによる行取りの数を減らす
-\ModifyHeading{section}{lines=1}
+\ModifyHeading{section}{
+	lines=1,
+	before_space=6pt,
+	after_space=0pt
+}
+% 段落・数式まわりの余白を詰める
+\setlength{\parskip}{0pt}
+\setlength{\jot}{3pt}
 
 %【本文】
 \begin{document}
+\normalsize
 %1段落目
-\section{2次元ベクトル基礎}
-$\vec{a}(1,2),　\vec{b}(3,4),　\vec{c}(5,7),　\vec{d}(-1,-2),　\vec{e}(-3,-7)$とする。
-以下の問いに答えよ。grrrrrrrrrrrr\\
-　※$\hat{a}は\vec{a}を正規化したもの(単位ベクトル)とする。$
+\section{成分表示と大きさ}
+次のベクトルについて、成分表示・大きさ・単位ベクトルを求めよ。
 \begin{align*}
-\vec{ab} &= & \vec{ba} &= & \vec{a}+\vec{b} &= & \vec{a}-\vec{b} &= \\
-\vec{bc} &= & \vec{cb} &= & \vec{b}+\vec{c} &= & \vec{b}-\vec{c} &= \\ 
-\vec{cd} &= & \vec{dc} &= & \vec{c}+\vec{d} &= & \vec{c}-\vec{d} &= \\ 
-\vec{de} &= & \vec{ed} &= & \vec{d}+\vec{e} &= & \vec{d}-\vec{e} &= \\
-|\vec{a}| &= & |\vec{b}| &= & |\vec{c}| &= & |\vec{d}| &= \\
-|\vec{ab}| &= & |\vec{bc}| &= & |\vec{cd}| &= & |\vec{de}| &= \\
-\hat{a} &= & \hat{b} &= & \hat{c} &= & \hat{d} &= \\
-\hat{ab} &= & \hat{bc} &= & \hat{cd} &= & \hat{de} &= \\
-\end{align*}
-\section{内積となす角}  
-$\vec{a}(1,2),　\vec{b}(3,4),　\vec{c}(5,7),　\vec{d}(-1,-2),　\vec{e}(-3,-7)$とする。
-以下の問いに答えよ。\\
-\begin{align*}
-\vec{a} \cdot \vec{b} &= & |\vec{a}||\vec{b}| &= & \cos\theta &= &\\
-\vec{b} \cdot \vec{c} &= & |\vec{b}||\vec{c}| &= & \cos\theta &= &\\
-\vec{c} \cdot \vec{d} &= & |\vec{c}||\vec{d}| &= & \cos\theta &= &\\
-\vec{d} \cdot \vec{e} &= & |\vec{d}||\vec{e}| &= & \cos\theta &= &\\
-\end{align*}
-\section{垂直条件と射影ベクトル}  
-$\vec{a}(1,2),　\vec{b}(3,4),　\vec{c}(5,7),　\vec{d}(-1,-2),　\vec{e}(-3,-7)$とする。
-以下の問いに答えよ。\\
-\begin{align*}
-&1.　\vec{a} と垂直になるベクトル\\
-&2.　\vec{b} と垂直になるベクトル\\
-&3.　\vec{c} と垂直になるベクトル\\
-&4.　\vec{d} と垂直になるベクトル\\
-&5.　\vec{e} と垂直になるベクトル\\
-&6.　\vec{a} から\vec{b}への射影ベクトル\\
-&7.　\vec{b} から\vec{c}への射影ベクトル\\
-&8.　\vec{c} から\vec{d}への射影ベクトル\\
-&9.　\vec{d} から\vec{e}への射影ベクトル\\
-&10.　\vec{e} から\vec{a}への射影ベクトル\\
+　&1.　\vec{a}=\begin{pmatrix}3 & 4\end{pmatrix}\text{ の大きさ }|\vec{a}|\text{ を求めよ。}\\[0.45em]
+　&2.　\vec{b}=\begin{pmatrix}-5 & 12\end{pmatrix}\text{ の大きさ }|\vec{b}|\text{ を求めよ。}\\[0.45em]
+　&3.　\vec{c}=\begin{pmatrix}6 & 8\end{pmatrix}\text{ の単位ベクトル }\hat{c}\text{ を求めよ。}\\[0.45em]
+　&4.　\vec{d}=\begin{pmatrix}-4 & 3\end{pmatrix}\text{ の単位ベクトル }\hat{d}\text{ を求めよ。}\\[0.45em]
+　&5.　長さが5で、方向が \begin{pmatrix}3 & 4\end{pmatrix} と同じベクトルを求めよ。\\[0.45em]
+　&6.　\vec{v}=\begin{pmatrix}x & y\end{pmatrix}\text{ の大きさが10のとき、成り立つ式を立てよ。}\\[0.45em]
 \end{align*}
 
-%2段落目
+\section{点と点を結ぶベクトル}
+点A, Bから、\(\overrightarrow{AB}\) と距離 \(\left|\overrightarrow{AB}\right|\) を求めよ。
+\begin{align*}
+　&1.　A(1,2),\ B(5,7)\\[0.45em]
+　&2.　A(-3,4),\ B(2,-2)\\[0.45em]
+　&3.　A(0,0),\ B(-6,8)\\[0.45em]
+　&4.　A(4,-1),\ B(-2,5)\\[0.45em]
+　&5.　A(2,3),\ B(2,-5)\\[0.45em]
+　&6.　A(a,b),\ B(c,d)\text{ のとき、}\overrightarrow{AB}\text{ と }|\overrightarrow{AB}|\text{ を一般式で表せ。}\\[0.45em]
+\end{align*}
+
+\section{ベクトルの足し算・引き算・スカラー倍}
+各問で計算し、結果を成分で答えよ。
+\begin{align*}
+　&1.　\begin{pmatrix}2 & -1\end{pmatrix}+\begin{pmatrix}5 & 3\end{pmatrix}\\[0.45em]
+　&2.　\begin{pmatrix}-4 & 7\end{pmatrix}-\begin{pmatrix}1 & -2\end{pmatrix}\\[0.45em]
+　&3.　2\begin{pmatrix}3 & -5\end{pmatrix}\\[0.45em]
+　&4.　-3\begin{pmatrix}-2 & 4\end{pmatrix}\\[0.45em]
+　&5.　\begin{pmatrix}1 & 2\end{pmatrix}+\begin{pmatrix}-3 & 5\end{pmatrix}-\begin{pmatrix}4 & -1\end{pmatrix}\\[0.45em]
+　&6.　2\vec{a}-3\vec{b}\text{ を、}\vec{a}=\begin{pmatrix}1 & -4\end{pmatrix},\ \vec{b}=\begin{pmatrix}-2 & 3\end{pmatrix}\text{ のとき求めよ。}\\[0.45em]
+\end{align*}
+
 \newpage
-\section{速度と加速度}
-初速度$V_0(1,2)$,初期位置を$P_0(3,4)$とする。重力は存在しないとする。
+
+\section{内積と角度}
+次のベクトルについて、内積となす角を求めよ。
 \begin{align*}
-&1.　2秒後の位置Pを求めよ。\\
-&2.　3秒後の位置Pを求めよ。\\
-&3.　4秒後の位置Pを求めよ。\\
-&4.　加速度A(1,2)とする。2秒後の速度Vを求めよ。\\
-&5.　加速度A(2,3)とする。3秒後の速度Vを求めよ。\\
-&6.　加速度A(3,4)とする。4秒後の速度Vを求めよ。\\
-&7.　加速度A(1,2)とする。2秒後の位置Pを求めよ。\\
-&8.　加速度A(2,3)とする。3秒後の位置Pを求めよ。\\
-&9.　加速度A(3,4)とする。4秒後の位置Pを求めよ。\\
+　&1.　\vec{a}=\begin{pmatrix}1 & 2\end{pmatrix},\ \vec{b}=\begin{pmatrix}3 & 4\end{pmatrix}\text{ の内積 }\vec{a}\cdot\vec{b}\\[0.45em]
+　&2.　\vec{a}=\begin{pmatrix}2 & -1\end{pmatrix},\ \vec{b}=\begin{pmatrix}1 & 2\end{pmatrix}\text{ の内積 }\vec{a}\cdot\vec{b}\\[0.45em]
+　&3.　\vec{a}=\begin{pmatrix}3 & 0\end{pmatrix},\ \vec{b}=\begin{pmatrix}0 & 5\end{pmatrix}\text{ が垂直か判定せよ。}\\[0.45em]
+　&4.　\vec{a}=\begin{pmatrix}2 & 1\end{pmatrix},\ \vec{b}=\begin{pmatrix}1 & 2\end{pmatrix}\text{ のなす角 }\theta\text{ を求めよ。}\\[0.45em]
+　&5.　\vec{a}=\begin{pmatrix}4 & 0\end{pmatrix},\ \vec{b}=\begin{pmatrix}2 & 2\sqrt{3}\end{pmatrix}\text{ のなす角 }\theta\text{ を求めよ。}\\[0.45em]
+　&6.　\vec{a}=\begin{pmatrix}4 & -1\end{pmatrix},\ \vec{b}=\begin{pmatrix}1 & 4\end{pmatrix}\text{ について、}\vec{a}\cdot\vec{b}\text{ を計算し、2本が垂直か判定せよ。}\\[0.45em]
 \end{align*}
-\section{放物線運動}
-初速度$V_0(1,2)$,初期位置を$P_0(3,4)$,重力加速度を$G(0,-9)$とする。
+
+\section{2次元の外積と面積}
+次のベクトルについて、外積(2次元)を計算せよ。
 \begin{align*}
-&1.　2秒後の位置Pを求めよ。\\
-&2.　3秒後の位置Pを求めよ。\\
-&3.　4秒後の位置Pを求めよ。\\
-&4.　加速度A(1,2)とする。2秒後の速度Vを求めよ。\\
-&5.　加速度A(2,3)とする。3秒後の速度Vを求めよ。\\
-&6.　加速度A(3,4)とする。4秒後の速度Vを求めよ。\\
-&7.　加速度A(1,2)とする。2秒後の位置Pを求めよ。\\
-&8.　加速度A(2,3)とする。3秒後の位置Pを求めよ。\\
-&9.　加速度A(3,4)とする。4秒後の位置Pを求めよ。\\
-&10.　\theta=60度の方向に速さ8で打ち出した。V(x,y)の形に直せ。\\
-&11.　\theta=60度の方向に速さ8で打ち出した。何秒で頂点に着くか？\\
-&12.　\theta=60度の方向に速さ8で打ち出した。何秒で地面に着くか？\\
+　&1.　\vec{a}=\begin{pmatrix}1 & 2\end{pmatrix},\ \vec{b}=\begin{pmatrix}3 & 1\end{pmatrix}\\[0.45em]
+　&2.　\vec{a}=\begin{pmatrix}2 & 5\end{pmatrix},\ \vec{b}=\begin{pmatrix}-1 & 4\end{pmatrix}\\[0.45em]
+　&3.　\vec{a}=\begin{pmatrix}4 & 0\end{pmatrix},\ \vec{b}=\begin{pmatrix}0 & 3\end{pmatrix}\\[0.45em]
+　&4.　問3の2本が作る平行四辺形の面積を求めよ。\\[0.45em]
+　&5.　\vec{a}\times\vec{b}\text{ と }\vec{b}\times\vec{a}\text{ の関係を式で書け。}\\[0.45em]
+　&6.　\vec{a}=\begin{pmatrix}2 & 1\end{pmatrix},\ \vec{b}=\begin{pmatrix}1 & 3\end{pmatrix}\text{ と }\vec{c}=\begin{pmatrix}3 & -1\end{pmatrix}\text{ について、}\vec{a}\times\vec{b}\text{ と }\vec{a}\times\vec{c}\text{ を計算し、符号を答えよ。}\\[0.45em]
 \end{align*}
-\section{球の当たり判定}
-球Aの位置(1,2),球Bの位置(12,16)とする。半径はそれぞれ1,2とする。
+
+\section{射影とゲーム計算}
+ベクトル\(\vec{a}\)から\(\vec{b}\)方向への射影を\(\vec{A}\)とする。
 \begin{align*}
-&1.　Aだけが動くとする。2秒後に当たる為の速度V_aを求めよ。\\
-&2.　Bだけが動くとする。3秒後に当たる為の速度V_bを求めよ。\\
-&3.　AもBも動き、Bの速度はAの速度の2倍とする。2秒後に当たる際のそれぞれの速度を求めよ。\\
+　&1.　\vec{a}=\begin{pmatrix}3 & 2\end{pmatrix},\ \hat{b}=\begin{pmatrix}1 & 0\end{pmatrix}\text{ のとき、}\vec{A}\text{ を求めよ。}\\[0.45em]
+　&2.　\vec{a}=\begin{pmatrix}4 & 1\end{pmatrix},\ \hat{b}=\begin{pmatrix}0 & 1\end{pmatrix}\text{ のとき、}\vec{A}\text{ を求めよ。}\\[0.45em]
+　&3.　\vec{a}=\begin{pmatrix}5 & 0\end{pmatrix},\ \hat{b}=\begin{pmatrix}\frac{3}{5} & \frac{4}{5}\end{pmatrix}\text{ のとき、}\vec{A}\text{ を求めよ。}\\[0.45em]
+　&4.　点A(2,2),\ 点B(5,3.6),\ 半径r_a=1.2,\ r_b=1.8\text{ とする。衝突判定せよ。}\\[0.45em]
+　&5.　壁方向 \hat{w}=\begin{pmatrix}\frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}}\end{pmatrix},\ 入力\vec{v}=\begin{pmatrix}4 & 0\end{pmatrix}\text{ のとき、壁沿い移動 }\vec{v}_{\parallel}\text{ を求めよ。}\\[0.45em]
+　&6.　壁方向 \hat{w}=\begin{pmatrix}0 & 1\end{pmatrix},\ 入力\vec{v}=\begin{pmatrix}3 & -2\end{pmatrix}\text{ のとき、壁沿い移動 }\vec{v}_{\parallel}\text{ を求めよ。}\\[0.45em]
 \end{align*}
+
 \end{document}

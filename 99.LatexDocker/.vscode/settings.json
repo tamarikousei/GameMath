@@ -16,7 +16,7 @@
                 "--workdir", "/workdir",
                 "my-latex-physics",
                 "sh", "-c",
-                "rm -rf out && mkdir -p out && latexmk -r config/.latexmkrc -outdir=out -pdfdvi %DOCFILE% && cp out/%DOCFILE%.pdf ."
+                "mkdir -p out; f=\"%DOCFILE%\"; b=\"${f%.tex}\"; latexmk -r config/.latexmkrc -outdir=out -pdfdvi \"$f\"; cp \"out/$b.pdf\" ."
             ]
         }
     ],
